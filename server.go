@@ -1,3 +1,8 @@
+// Package httpsplitter listens
+// on a port and forwards http requests
+// to another port;
+// all other requests are
+// forwarded to a third port.
 package httpsplitter
 
 import (
