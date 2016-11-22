@@ -1,4 +1,4 @@
-package httpsplitter
+package main
 
 import (
 	"encoding/json"

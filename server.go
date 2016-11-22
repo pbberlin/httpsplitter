@@ -3,7 +3,7 @@
 // to another port;
 // all other requests are
 // forwarded to a third port.
-package httpsplitter
+package main
 
 import (
 	"bytes"
