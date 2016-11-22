@@ -1,0 +1,23 @@
+{
+	"app_name": "Http Splitter",
+	"conn_type": "tcp",
+	"chunk_size": 512,
+	"keep_alive_secs": 5,
+	"listen_on":{
+ 		"host":    "0.0.0.0",
+ 		"port":    "80",
+ 		"por_":    "4444",
+ 		"last-line":    "no-comma"
+	},
+	"destination_hosts": 
+	{ 
+		"http":{
+	 		"host":    "localhost",
+	 		"port":    "81"
+		},
+		"non-http":{
+	 		"host":    "node01.zew-private.de",
+	 		"port":    "389"
+		}
+	}
+}
